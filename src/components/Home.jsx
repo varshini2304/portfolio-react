@@ -69,7 +69,7 @@ const Home = () => {
           {/* Right Container */}
           <div className="right-container">
             <h1 className="section-title">Hello!</h1>
-            <h2 id="role-animation">I'm {roleText}</h2> {/* Displaying the animated roles */}
+            <h2 id="role-animation">I&apos;m {roleText}</h2> {/* Displaying the animated roles */}
             <div className="about-content">
               <p>
                 I am a passionate software developer dedicated to crafting innovative solutions

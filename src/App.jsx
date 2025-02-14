@@ -7,7 +7,6 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ParticleBackground from "./components/ParticleBackground"; // Import the background
-
 import "./App.css"; // Import your CSS file
 
 function App() {

@@ -76,7 +76,12 @@ const Services = () => {
               <div className="services__modal active-modal" onClick={handleOutsideClick}>
                 <div className="services__modal-content">
                   <h4 className="services__modal-title">{service.title}</h4>
-                  <i className="uil uil-times services__modal-close" onClick={closeModal}></i>
+                  
+                  {/* Close Button */}
+                  <button className="services__modal-close" onClick={closeModal}>
+                    <i className="uil uil-times"></i>
+                  </button>
+
                   <ul className="services__modal-services grid">
                     {service.details.map((detail, i) => (
                       <li key={i}>
